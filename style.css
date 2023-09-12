@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    padding: 2rem;
+    /* background-image: url('https://media.istockphoto.com/id/1492086078/photo/orange-textured-background.jpg?s=612x612&w=0&k=20&c=JKhtVWWwqs6hggKwSR5KhqIq8ZN3VgoFBiFVc8t7TcY='); */
+    /* opacity: 0.2; */
+    z-index: -1;
+}
+
+
+#form{
+    border: 1px solid rgb(182, 174, 174);
+    padding: 2rem;
+    border-radius: 0.5rem;
+    text-align: center;
+}
+
+.form-input,#submit,#login{
+    display: block;
+    margin-bottom: 0.8rem;
+    width: 15rem;
+    height: 2.4rem;
+}
+
+#submit{
+    margin-top: 2rem;
+}
+
+#submit:hover{
+    background-color: rgb(207, 126, 20);
+}
+
+.form-input{
+    padding-left: 1rem;
+}
+#submit,#login{
+    background-color: rgb(140, 0, 255);
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+}
+
+#form-content{
+    /* border: 1px solid black; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}

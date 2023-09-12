@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!-- Practice Exercise To Be Submitted 
+Create a signup and login implementation with localStorage logic. You have up till 9PM to turn in your submission. -->
+    <main>
+        <div id="form-content">
+            <form action="" id="form" onsubmit="signup(event)">
+                <h2 style="margin-bottom: 1rem; margin-left: 0;">Sign Up</h2>
+                <p style="margin-bottom: 1rem;">signup here. It's free</p>
+                <!-- first name -->
+                <input type="text" name="first-name" id="first-name"  placeholder="First Name" required
+                    class="form-input victoria" >
+                <!-- Last name -->
+                <input type="text" name="last-name" id="last-name" placeholder="Last Name" required class="form-input">
+                <!-- Email -->
+                <input type="email" name="email" id="email" placeholder="Email" required class="form-input">
+                <!-- Password -->
+                <input type="password" name="password" id="password" placeholder="Password" required class="form-input">
+                <!-- Confirm password -->
+                <input type="password" name="confirm-password" id="confirm-password" placeholder="Confirm Password" required
+                    class="form-input">
+                <!-- Submit -->
+                <button type="submit" id="submit">Submit</button>
+            </form>
+        </div>
+    </main>
+    <script src="./index.js"></script>
+</body>
+</html>
