@@ -35,14 +35,14 @@ function signup(event){
 //Sign Up form
 function signin(event){
     event.preventDefault();
-    const signEmail = document.getElementById('sign-emal') 
-    const signPassword = document.getElementById('sign-password') 
+    let signEmail = document.getElementById('sign-email') 
+    let signPassword = document.getElementById('sign-password') 
     
     //Retrieve user credentials from local storage
     let user = localStorage.getItem('userData')
     user = JSON.parse(user);
     if(user.password !== signPassword.value){
-        alert(`Incorrect username or password!`);
+        alert(`Incorrect email or password!`);
         return;
     }
 
